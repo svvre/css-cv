@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* * { 
+    padding:0;
+    margin: 0;
+}* эта * обращаестя ко всему сайту и убирает паддинг и марджин/
+
+
+body {
+ background-color: #f1f1f1;
+ color: #0f014e;
+
+ font-size: 18px;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif;
+
+ /*font: normal 16px 'Roboto', sans-serif;*/
+
+ /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+  
+}
+a {
+   color: #000; 
+   text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+ .avatar {
+     width: 200px;
+     border-radius: 28px;
+     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+ }
+
+ .info {
+     display: flex;
+     margin-bottom:20px ;
+ }
+ /*адаптация к маленьким экранам- мобильникам*/
+ @media(max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+ }
+
+ .info-text {
+     margin-left: 40px;
+ }
+ .info-text h4 {
+     margin-bottom: 10px;
+ }
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform:unset ;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 42px;*/
+}
+/* Box Model*/
+.container {
+max-width: 750px;
+margin: auto;
+padding-top:  30px;
+}
+/*.aboutMe { */
+   /* background: greenyellow;*/
+    /*padding: 15px;*/
+    /*padding: 15px 40px;*/
+    /*padding: 15px 20px 25px 30px;*/
+   /* padding-top: 10px;
+    padding-right: 3px;
+    padding-bottom: 15px;
+    padding-left: 6px;
+    border: 5px solid blue;*/
+    /*border-bottom-style: dotted;*/
+    /*border-top-width: 15px;
+    border-right-color: yellow;
+    margin: 5px;
+
+}*/
+
+/*.box-model > div {
+ float: left;
+ background: #000;
+ height:200px;
+ border: 4px solid red;
+ width: 25%;
+ box-sizing: border-box;
+}*/
+
+.bg-yellow {
+    background: #fff9dc
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20pz;
+    /*background: blue;*/
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0px 20px;
+    /*list-style: none; пропадают цифры в списке*/
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    /*border-bottom: 1px solid blue; нижнее подчеркивание*/
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),.table td:nth-child(3) {
+    color: blue;
+}
+/*.table td:nth-child(1){
+    color: blue; - это называется псевдо селектор*/
+   /* .table tr:nth-child(even) {
+        background: green;
+    }*/
+    /* (even)-четное, (odd) - не четные строки*/
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc
+}
+/* чтобы сделать заголовое в центре */
+.contact h2{
+    text-align: center;
+
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+
+}
+.form-group input,.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+.btn {
+    color: #fff;
+    background: #111;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+    
+}
+/*Position  делает навигацию на сайте*/
+/*.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}*/
+/*.box {
+    position: fixed;при этих значениях position relativ и absolute  квардатик буде находиться при изменении положения в блоке прямоугольника, если поменять на fixed то от будет привязан к окну экрана(типа кнопки навигации)
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%; /*закругляет края*/
+    /*bottom: 150px;*/
+    /*left: 0px;*/
+    /*width:  50px;
+    height: 50px;
+    background: khaki;
+    
+}*/
+
+
+
+
+
+
+
+
+
+
+
